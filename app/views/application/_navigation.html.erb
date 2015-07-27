@@ -1,4 +1,23 @@
-<header class="navbar navbar-fixed-top navbar-inverse" xmlns="http://www.w3.org/1999/html">
-  <div class="navbar-inner">
-  </div>
-</header>
+<div class="row">
+  <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation" xmlns="http://www.w3.org/1999/html">
+    <div class="nav navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="glyphicon glyphicon-arrow-down"></span>
+        MENU
+
+      </button>
+
+    </div>
+    <div class="collapse navbar-collapse" id="collapse">
+      <ul class="nav navbar-nav" id="menu">
+        <li><%= link_to "Home", '#' %></li>
+        <li><%= link_to "Help", '#' %></li>
+        <li><%= link_to "Sign in", '#' %></li>
+      </ul>
+
+    </div>
+
+  </nav>
+
+</div>

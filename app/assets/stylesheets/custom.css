@@ -1,5 +1,5 @@
 html,body{
-    height: 40%;
+    height: 60%;
 
 }
 html{
@@ -9,16 +9,18 @@ html{
 
 }
 body {
-    padding-top: 40px;
+    padding-top: 70px;
     display: table-cell;
     vertical-align: middle;
     /*background: -webkit-gradient(linear,left top, left bottom, color-stop(0.25,whitesmoke),color-stop(0.65,rgb(226,217,185))));
     background: -moz-linear-gradient(center top,whitesmoke 25%,rgb(226,217,185) 65%));
 */
 }
-header{
+nav{
     height: 90px;
+
 }
+
 @media (max-width: 600px) {
     body {
         padding-top: 0px;
@@ -29,6 +31,22 @@ header{
     padding: 2px;
     margin-bottom: 10px;
 
+}
+
+.navbar-inverse .navbar-toggle {
+    color: white;
+    font-weight: bold;
+    border-color: white;
+}
+.navbar-inverse .navbar-toggle:hover {
+    background-color: #ddd;
+    color: #333;
+}
+.navbar-inverse .navbar-toggle .glyphicon {
+    color: white;
+}
+.navbar-inverse .navbar-toggle:hover .glyphicon {
+    color: red;
 }
 footer { font-size: .85em;
     color: #9ba0bd;
