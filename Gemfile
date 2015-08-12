@@ -42,6 +42,8 @@ group :test do
   gem 'capybara', '~> 2.4.4'
   #gem 'win32console', '~> 1.3.2'
 end
+gem 'rspec-factory-girl', '~> 0.2.0'
+gem 'gravatar_image_tag', '~> 1.2.0'
 gem 'annotate'
 
 group :production do
